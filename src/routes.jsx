@@ -11,6 +11,10 @@ export const router = createBrowserRouter([
     path: "/MultipleToDoList",
     element: <MultipleToDoList />,
   },
+  {
+    path: "/*",
+    element: <MultipleToDoList />,
+  },
 ]);
 
 export const Routes = () => <RouterProvider router={router} />;
