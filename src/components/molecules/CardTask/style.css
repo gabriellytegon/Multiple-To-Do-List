@@ -1,0 +1,52 @@
+.containerCardTask {
+  width: auto;
+  min-height: 130px;
+  display: flex;
+}
+
+.borderLeftRed {
+  background-color: #ed3237;
+  width: 25px;
+  height: 100%;
+  border-radius: 10px 0 0 10px;
+}
+
+.contentCardTask {
+  background-color: #f5f5f5;
+  display: flex;
+  padding: 15px;
+  border-radius: 0 10px 10px 0;
+}
+
+.titleAndNumberCardTask {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 2;
+  height: 100%;
+  row-gap: 4px;
+}
+
+.titleAndNumberCardTask h3,
+.titleAndNumberCardTask p {
+  margin: 0;
+  cursor: pointer;
+}
+
+.buttonTrashCardTask {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 8px;
+  border: none;
+}
+
+.buttonTrashCardTask button {
+  border: none;
+  border-radius: 3px;
+  background-color: transparent;
+}
+
+.buttonTrashCardTask button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
