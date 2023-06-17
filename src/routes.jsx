@@ -1,13 +1,15 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { DetailToDoList } from "./pages/DetailToDoList";
+import { MultipleToDoList } from "./pages/MultipleToDoList";
 
 export const router = createBrowserRouter([
   {
     path: "/DetailToDoList/:id",
-    element: <></>,
+    element: <DetailToDoList />,
   },
   {
     path: "/MultipleToDoList",
-    element: <></>,
+    element: <MultipleToDoList />,
   },
 ]);
 
