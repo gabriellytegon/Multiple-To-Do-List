@@ -4,7 +4,7 @@ import Modal from "react-modal";
 import "./style.css";
 import { ContentCreateToDoList } from "../../components/organisms/ContentCreateToDoList";
 import { Icon } from "../../components/atoms/Icon";
-import { CardTask } from "../../components/molecules/CardTask";
+import { CardList } from "../../components/molecules/CardList";
 import cancel from "../../assets/cancel.svg";
 import { Input } from "../../components/atoms/Input";
 
@@ -78,7 +78,7 @@ export const MultipleToDoList = () => {
 
       <div className="containerCardMultipleList">
         {listsToDo.map((list) => (
-          <CardTask
+          <CardList
             id={list.id}
             title={list.title}
             qtdTaskCompleted={

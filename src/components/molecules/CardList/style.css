@@ -1,4 +1,4 @@
-.containerCardTask {
+.containerCardList {
   width: auto;
   min-height: 130px;
   display: flex;
@@ -11,14 +11,14 @@
   border-radius: 10px 0 0 10px;
 }
 
-.contentCardTask {
+.contentCardList {
   background-color: #f5f5f5;
   display: flex;
   padding: 15px;
   border-radius: 0 10px 10px 0;
 }
 
-.titleAndNumberCardTask {
+.titleAndNumberCardList {
   display: flex;
   flex-direction: column;
   flex-grow: 2;
@@ -26,13 +26,13 @@
   row-gap: 4px;
 }
 
-.titleAndNumberCardTask h3,
-.titleAndNumberCardTask p {
+.titleAndNumberCardList h3,
+.titleAndNumberCardList p {
   margin: 0;
   cursor: pointer;
 }
 
-.buttonTrashCardTask {
+.buttonTrashCardList {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -40,13 +40,13 @@
   border: none;
 }
 
-.buttonTrashCardTask button {
+.buttonTrashCardList button {
   border: none;
   border-radius: 3px;
   background-color: transparent;
 }
 
-.buttonTrashCardTask button:hover {
+.buttonTrashCardList button:hover {
   opacity: 0.8;
   cursor: pointer;
 }
